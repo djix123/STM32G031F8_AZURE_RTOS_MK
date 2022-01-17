@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/Src",
+                "${workspaceFolder}//Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32G0xx/Include",
+                "${workspaceFolder}/Drivers/STM32G0xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/STM32G0xx_HAL_Driver/Src",
+                "${workspaceFolder}/Middlewares/ST/threadx/common/inc",
+                "${workspaceFolder}/Middlewares/ST/threadx/common/src",
+                "${workspaceFolder}/Middlewares/ST/threadx/ports/cortex_m0/gnu/inc",
+                "${workspaceFolder}/Middlewares/ST/threadx/ports/cortex_m0/gnu/src",
+                "${workspaceFolder}/STM32CubeIDE/Application/User",
+                "${workspaceFolder}/STM32CubeIDE/Application//Startup"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}/Src",
+                    "${workspaceFolder}//Inc",
+                    "${workspaceFolder}/Drivers/CMSIS/Include",
+                    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32G0xx/Include",
+                    "${workspaceFolder}/Drivers/STM32G0xx_HAL_Driver/Inc",
+                    "${workspaceFolder}/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy",
+                    "${workspaceFolder}/Drivers/STM32G0xx_HAL_Driver/Src",
+                    "${workspaceFolder}/Middlewares/ST/threadx/common/inc",
+                    "${workspaceFolder}/Middlewares/ST/threadx/common/src",
+                    "${workspaceFolder}/Middlewares/ST/threadx/ports/cortex_m0/gnu/inc",
+                    "${workspaceFolder}/Middlewares/ST/threadx/ports/cortex_m0/gnu/src",
+                    "${workspaceFolder}/STM32CubeIDE/Application/User",
+                    "${workspaceFolder}/STM32CubeIDE/Application//Startup"
+                            ]
+            },
+            "defines": [
+                "DEBUG",
+                "TX_INCLUDE_USER_DEFINE_FILE",
+                "USE_HAL_DRIVER",
+                "STM32G031xx"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

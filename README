@@ -1,0 +1,10 @@
+Example Project Showing Azure RTOS (ThreadX) using x-cube-azrtos-g0 extension pack for STM32CubeMX
+https://github.com/STMicroelectronics/x-cube-azrtos-g0
+
+This project is based on the NUCLEO-G0B1RE/Applications/ThreadX/Tx_Thread_Creation example
+
+The current implementation of STM32CubeMX / x-cube-azrtos-g0 doesn't give the option to publish a
+Makefile or Other type of project only the three IDES: IAR EWARM / Keil MDK-ARM / STM32CubeIDE
+
+Fortuantely STM32CubeIDE is Eclipse/GNU based making translation to a Makefile project straightforward
+
